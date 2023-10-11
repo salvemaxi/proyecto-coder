@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    
+}
+
+body{
+    background-color: gray;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.portada {
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.enlace {
+    position: absolute;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 80px ;
+    height: 80px ;
+    border-radius: 50%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    border-radius: 3px;
+    text-transform: uppercase;
+   
+}
+
+
+li a.active, li a:hover {
+    background-color: blue;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 100px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.fondo-home {background: url(../img/mujer_hogar.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    height: calc(100vh);
+
+}
+ 
+@media (max-width:600px) {
+    .checkbtn {
+        display: block;}
+ul{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: gray;
+    top: 100px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 40px;
+}
+nav ul lia{
+    font-size: 20px;
+}
+li a:hover, li a.active{
+    background: none;
+    color: red;
+   
+}
+#check:checked ~ ul {
+    left: 0;
+}
+
+}
+
+
+.logo-footer{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 3px black;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.pie-pagina .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie-pagina .grupo1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo1 .red-social a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo1 .red-social a:hover{
+    color: aqua;
+}
+
+.grupo2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width:600px){
+    .pie-pagina .grupo1{
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-gap:30px;
+        padding: 35px 0px;
+    }  
+}
+
+.donde {
+    margin:20px;
+    text-align: center;
+}
+
+.direccion{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1cm;
+    color: white;
+}
+
+.location{
+    margin: 20px;
+}
+
+.donde1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.correo {
+    margin-bottom: 20px;
+}
+
+
+.dueños {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1cm;
+
+}
+
+.dueño1 {
+    margin-left: 3cm;
+    margin-right: 3cm;
+    border-radius: 50%;
+    width: 200px ;
+    height: 200px;
+}
+
+.dueño2 {
+    margin-left: 4.5cm;
+    
+}
+
+.nosotros1 {
+    display: flex;
+    margin: 2cm;
+}
+
+.intro_nosotros {
+    display: flex;
+    margin: 2cm;
+    
+}
+
+.intro2 {
+    font-size: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin: 20px;
+}
+
+.un_dormitorio1 {
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 20%;
+    border: solid; color: black;
+}
+    
+.dos_dormitorios2 {
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 20%;
+    border: solid; color: black;
+}
+
+.tres_dormitorios3 {
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 20%;
+    border: solid; color: black;
+}
+
+.un_dormitorio{
+    text-align: center;
+    color: white;
+}
+
+.dos_dormitorios {
+    text-align: center;
+    color: white;
+}
+
+.tres_dormitorios {
+    text-align: center;
+    color: white;
+}
+
+
+.bancos {
+    width: 200px;
+    height: 200px;
+   
+}
+
+.hombre-dinero {
+    width: 100vw;
+    margin: 30px 0;
+}
+
+.intro_fin {
+    text-align: center;
+}
+
+.fin1 {
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 30px;
+}
+
+.grid-bancos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.con-bancos {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.letra-bancos {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
