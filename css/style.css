@@ -81,6 +81,7 @@ li a.active, li a:hover {
     margin-right: 40px;
     cursor: pointer;
     display: none;
+    z-index: 2;
 }
 
 #check {
@@ -97,7 +98,9 @@ li a.active, li a:hover {
  
 @media (max-width:600px) {
     .checkbtn {
-        display: block;}
+        display: block;
+         }
+
 ul{
     position: fixed;
     width: 100%;
@@ -107,6 +110,7 @@ ul{
     left: -100%;
     text-align: center;
     transition: all .5s;
+    z-index: 1;
 }
 nav ul li{
     display: block;
@@ -266,6 +270,7 @@ li a:hover, li a.active{
     color: white;
 }
 
+
 .catalogo {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
@@ -299,7 +304,7 @@ li a:hover, li a.active{
 .un_dormitorio{
     text-align: center;
     color: white;
-}
+  }
 
 .dos_dormitorios {
     text-align: center;
@@ -309,6 +314,18 @@ li a:hover, li a.active{
 .tres_dormitorios {
     text-align: center;
     color: white;
+}
+
+.precio {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width:600px) {
+    .catalogo {
+        display: grid;
+        grid-template-columns: 100%;
+    }
 }
 
 
