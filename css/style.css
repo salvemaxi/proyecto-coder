@@ -250,7 +250,7 @@ li a:hover, li a.active{
     "form info"
     "form map" ;
     grid-gap: 20px;
-    margin: 50px 50px;
+    margin: 100px 100px;
     margin-top: 20px;
 }
 
@@ -359,24 +359,6 @@ margin-right: 15px;
     font-size: 1.1em;
 }
 
-.sci {
-    margin-top: 40px;
-    display: flex;
-}
-
-.sci li {
-    list-style: none;
-    margin-right: 15px;
-}
-
-.sci li a{
-    color:#ccc;
-    font-size: 2em;
-}
-
-.sci li a:hover{
-    color: white;
-}
 
 .map {
     padding: 0;
@@ -389,12 +371,21 @@ margin-right: 15px;
 
 @media (max-width:700px) {
    
+.formbox .row50{
+    display: grid;
+}
+
+.inputbox {
+    width: 100%;
+}
 
 .contactanos{
     padding: 20px;
 }
 
 .caja{
+margin-left: 30px;
+text-align: center;
 position: relative;
 display: grid;
 grid-template-columns: 1fr;
