@@ -1,0 +1,23 @@
+img {
+    max-width: 100%;
+  }
+  
+  .titulo{
+      text-align: center;
+  }
+  
+  .portada {
+      font-size: 30px;
+      color: white;
+      margin: 20px;
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
+  
+  .fondo-home {background: url(../img/mujer_hogar.png) no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 100vh;
+      height: calc(100vh);
+  
+  }

@@ -1,0 +1,37 @@
+.bancos {
+    width: 200px;
+    height: 200px;
+   
+}
+
+.hombre-dinero {
+    width: 100vw;
+    margin: 30px 0;
+}
+
+.intro_fin {
+    text-align: center;
+}
+
+.fin1 {
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 30px;
+}
+
+.grid-bancos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.con-bancos {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.letra-bancos {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
