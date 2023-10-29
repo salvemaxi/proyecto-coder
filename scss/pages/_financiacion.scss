@@ -22,16 +22,28 @@
 
 .grid-bancos {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    margin: 25px;
+    gap: 25px;
+    align-items: center;
+    justify-items: center;
+    
 }
 
-.con-bancos {
-    text-align: center;
-    margin: 30px 0;
+.bancos {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    img {
+        width: 100%;
+        height: 100%;
+    }    
 }
 
-.letra-bancos {
-    color: white;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+@media (max-width:600px) {
+    .grid-bancos{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
+
+
