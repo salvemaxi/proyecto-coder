@@ -167,55 +167,21 @@ li a.active, li a:hover {
 }
 .catalogo {
   display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 20px;
+  gap: 15px;
 }
-
-.un_dormitorio1 {
+.catalogo p {
+  text-align: center;
+  color: white;
+}
+.catalogo img {
   width: 350px;
   height: 350px;
   margin: 20px;
   border-radius: 20%;
   border: solid;
   color: black;
-}
-
-.dos_dormitorios2 {
-  width: 350px;
-  height: 350px;
-  margin: 20px;
-  border-radius: 20%;
-  border: solid;
-  color: black;
-}
-
-.tres_dormitorios3 {
-  width: 350px;
-  height: 350px;
-  margin: 20px;
-  border-radius: 20%;
-  border: solid;
-  color: black;
-}
-
-.un_dormitorio {
-  text-align: center;
-  color: white;
-}
-
-.dos_dormitorios {
-  text-align: center;
-  color: white;
-}
-
-.tres_dormitorios {
-  text-align: center;
-  color: white;
-}
-
-.precio {
-  font-family: sans-serif;
-  font-size: 20px;
 }
 
 @media (max-width: 600px) {
@@ -407,11 +373,6 @@ li a.active, li a:hover {
     grid-template-areas: "form" "info" "map";
   }
 }
-.bancos {
-  width: 200px;
-  height: 200px;
-}
-
 .hombre-dinero {
   width: 100vw;
   margin: 30px 0;

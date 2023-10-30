@@ -1,52 +1,20 @@
 
 .catalogo {
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 20px;
-}
-
-.un_dormitorio1 {
-    width: 350px;
-    height: 350px;
-    margin: 20px;
-    border-radius: 20%;
-    border: solid; color: black;
-}
-    
-.dos_dormitorios2 {
-    width: 350px;
-    height: 350px;
-    margin: 20px;
-    border-radius: 20%;
-    border: solid; color: black;
-}
-
-.tres_dormitorios3 {
-    width: 350px;
-    height: 350px;
-    margin: 20px;
-    border-radius: 20%;
-    border: solid; color: black;
-}
-
-.un_dormitorio{
-    text-align: center;
-    color: white;
-  }
-
-.dos_dormitorios {
-    text-align: center;
-    color: white;
-}
-
-.tres_dormitorios {
-    text-align: center;
-    color: white;
-}
-
-.precio {
-    font-family: sans-serif;
-    font-size: 20px;
+    gap: 15px;
+    p{
+        text-align: center;
+        color:$color-white;
+    }
+    img{
+        width: 350px;
+        height: 350px;
+        margin: 20px;
+        border-radius: 20%;
+        border: solid; color:$color-black;
+    }
 }
 
 @media (max-width:600px) {

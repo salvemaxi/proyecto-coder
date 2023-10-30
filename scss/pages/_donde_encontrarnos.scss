@@ -12,7 +12,7 @@
 }
 
 .contactanos .titulo-contacto h2{
-    color: white;
+    color:$color-white;
     font-weight: 500;
     font-size: 40px;
 }
@@ -30,7 +30,7 @@
 }
 
 .contacto{padding: 40px;
-    background-color: white;
+    background-color:$color-white;
     box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15)
 }
 
@@ -48,7 +48,7 @@
 }
 
 .caja h3 {
-    color:black;
+    color:$color-black;
     font-weight: 500;
     font-size: 1.5rem;
     margin-bottom: 10px;
@@ -76,7 +76,7 @@
 }
 
 .inputbox span{
-    color: black;
+    color:$color-black;
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: 500;
@@ -87,21 +87,21 @@
     padding: 10px;
     font-size: 1.1em;
     outline: none;
-    border: 1px solid black;
+    border: 1px solid $color-black;
 }
 
 .inputbox textarea {
     padding: 10px;
     font-size: 1.1em;
     outline: none;
-    border: 1px solid black;
+    border: 1px solid $color-black;
     resize: none;
     min-height: 220px;
     margin-bottom: 10px;
 }
 
 .inputbox input[type="submit"] {
-    color: white;
+    color:$color-white;
     background-color: #ff578b;
     border: none;
     font-size: 1.1em;
@@ -112,7 +112,7 @@
 }
 
 .inputbox ::placeholder {
-    color:black;
+    color:$color-black;
 }
 
 .info {
@@ -120,7 +120,7 @@
 }
 
 .info h3 {
-   color: white; 
+   color:$color-white; 
 }
 
 .info .infobox div{
@@ -132,7 +132,7 @@
 .info .infobox div span{
 min-width: 40px;
 height: 40px;
-color: white;
+color:$color-white;
 background-color: #18b7ff;
 display: flex;
 align-items: center;
@@ -143,13 +143,13 @@ margin-right: 15px;
 }
 
 .info .infobox div p {
-    color: white;
+    color:$color-white;
     font-size: 1.1em;
 }
 
 .info .infobox div a{
     text-decoration: none;
-    color: white;
+    color: $color-white;
     font-size: 1.1em;
 }
 
