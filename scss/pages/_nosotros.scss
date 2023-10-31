@@ -5,7 +5,7 @@
     margin: 100px;
     p{
         font-size: 1.5rem;
-        color: black;
+        color:$color-black;
         border: 1px;
         font-family:cursive;
     }
@@ -13,7 +13,7 @@
         border-radius: 50%;
         width: 200px ;
         height: 200px;
-        border: solid black;
+        border: solid $color-black;
         box-shadow: 10px 5px;
     }
     
@@ -24,7 +24,7 @@
     text-align: center;
     width: 100%;
     img{
-        border: solid black 1px;
+        border: solid $color-black 1px;
         margin: 25px;
         }
     p{
