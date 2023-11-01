@@ -190,6 +190,16 @@ li a.active, li a:hover {
     grid-template-columns: 100%;
   }
 }
+.dormitorios {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.dormitorios img {
+  width: 250px;
+  height: 250px;
+}
+
 .contactanos {
   position: relative;
   width: 100%;
